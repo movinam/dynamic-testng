@@ -1,0 +1,32 @@
+{
+  "suiteName": "Dynamic Test Suite",
+  "tests": [
+    {
+      "testName": "Test Basic Accessibility",
+      "parameters": {
+        "url": "https://www.hp-lexicon.org/"
+      },
+      "classes": [
+        "accessibilitytests.TestBasics"
+      ]
+    },
+    {
+      "testName": "Test Title Accessibility",
+      "parameters": {
+        "url": "https://www.music-map.com/"
+      },
+      "classes": [
+        "accessibilitytests.TestTitle"
+      ]
+    },
+    {
+      "testName": "Test Demo",
+      "parameters": {
+        "url": "https://www.iwastesomuchtime.com/"
+      },
+      "classes": [
+        "demotests.TestPageState"
+      ]
+    }
+  ]
+}
